@@ -24,7 +24,7 @@ class _GamePageState extends State<GamePage> {
     var guess = int.tryParse(_controller.text);
     if (guess == null) {
       // แจ้ง error
-      print('Input Error!!');
+      print('Input Error!!!');
       setState(() {
         _feedbackText = 'Input error , Please try again';
       });
